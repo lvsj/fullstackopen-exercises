@@ -1,0 +1,6 @@
+title 0.6: New note
+note over Browser: User inputs new note and save
+note over Browser: Browser executes the event handler \n of save, and redraw notes
+Browser->Server:HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+Server-->Browser:OK
+
